@@ -49,7 +49,7 @@ vim.opt.textwidth = 0
 
 vim.opt.number = true
 vim.opt.cursorline = true
---vim.opt.signcolumn = 'yes'
+vim.opt.signcolumn = 'no'
 vim.opt.tabstop = 4
 vim.opt.softtabstop = 4
 vim.opt.shiftwidth = 4
@@ -203,11 +203,12 @@ nmap('<space>k', '<cmd>wincmd s<cr>')
 nmap('<space>q', '<cmd>wincmd q<cr>')
 nmap('<space>c', '<cmd>wincmd c<cr>')
 nmap('<space>|', '<cmd>wincmd |<cr>')
+nmap('<space>=', '<cmd>wincmd =<cr>')
 nmap('<space>x', '<cmd>wincmd x<cr>')
 nmap('<space>r', '<cmd>wincmd r<cr>')
 nmap('<space>R', '<cmd>wincmd R<cr>')
 
-nmap('<space><space>', '<cmd>w<cr>')
+nmap('<space><space>', '<cmd>wa<cr>')
 
 nmap('<leader>cl', '<cmd>set bg=light<cr>')
 nmap('<leader>cd', '<cmd>set bg=dark<cr>')
